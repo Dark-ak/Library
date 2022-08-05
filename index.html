@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head">
+        <h1>Library</h1>
+    </div>
+
+    <div class="main">
+        <div class="container">
+            <div class="books">
+                <img id="add" onclick="input()" src="images/add.png" alt="">
+                <p>Add Book</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal">
+        <div class="modal-content">
+            <h2 class="h">Add Book</h2>
+            <p class="error">Fill all values</p>
+
+            <form name="myForm" id="formid" action="#">
+                <ul class="open">
+                    <li>
+                        <input type="text" name="title" id="info" class="title" placeholder="Title" required>
+                    </li>
+        
+                    <li>
+                        <input type="text" name="author" id="info" class="author" placeholder="Author" required>
+                    </li>
+        
+                    <li><input type="number" name="pages" id="info" class="pages" placeholder="No. of Pages" required></li>
+        
+                    <li>
+                        <label for="read">Read</label>
+                        <input type="checkbox" name="read" id="read">
+                    </li>
+
+                    <button type="button" onclick="check()" class="submit">Add</button>
+                </ul>
+            </form>
+        </div>
+        
+    </div>
+</body>
+<script src="library.js"></script>
+</html>

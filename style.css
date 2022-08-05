@@ -1,0 +1,121 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    /* I have also tried height: 100%; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+.head{
+    height: 100px;
+    text-align: center;
+    background-color: rgb(192, 252, 82);
+}
+
+.head h1{
+    margin: 0;
+    padding-top: 25px;
+    color: aliceblue;
+}
+
+#add{
+    width: 50px;
+    height: 50px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    width: 200px;
+    height: 200px;
+    gap: 17.5px;
+    margin: 15px;
+}
+
+.books{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    box-shadow:0px 12px 5px grey ;
+    border: #73AD21 solid 5px;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+
+.modal-content {
+    background-color: rgb(202, 217, 230);
+    margin-top: 100px;
+    margin-left:387.400px;
+    margin-right: 387.400px;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    border: 3px solid #73AD21;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+.error{
+    display: none;
+    margin: 0px;
+    color: red  ;
+}
+
+#info{
+    height: 28px;
+    width: 150px;
+    border: 2px white solid;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+li{
+    margin-right:40px ;
+    margin-top: 10px;
+}
+
+
+button{
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 150px;
+    height: 28px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.books p{
+    font-size: 20px;
+}
