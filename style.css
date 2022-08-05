@@ -38,8 +38,8 @@ ul{
 .books{
     display: flex;
     flex-direction: column;
-    width: 250px;
-    height: 300px;
+    width: 310px;
+    height: 360px;
     justify-content: center;
     align-items: center;
     box-shadow:0px 12px 5px grey ;
@@ -66,9 +66,9 @@ ul{
 .modal-content {
     background-color: rgb(202, 217, 230);
     margin-top: 100px;
-    margin-left:387.400px;
-    margin-right: 387.400px;
-    width: 300px;
+    margin-left:522.500px;
+    margin-right: 522.500px;
+    width: 350px;
     flex-direction: column;
     align-items: center;
     display: flex;
@@ -88,8 +88,8 @@ ul{
 }
 
 #info{
-    height: 28px;
-    width: 150px;
+    height: 44px;
+    width: 250px;
     border: 2px white solid;
     border-radius: 15px;
     -webkit-border-radius: 15px;
@@ -100,15 +100,15 @@ ul{
 
 li{
     margin-right:40px ;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 
 button{
     margin-top: 15px;
     margin-left: 5px;
-    width: 150px;
-    height: 28px;
+    width: 250px;
+    height: 40px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
